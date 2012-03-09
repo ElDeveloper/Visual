@@ -14,7 +14,7 @@
 #define FILENAME @"Cluster_"
 #define EXTESNION @"eps"
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>{
+@interface AppDelegate : NSObject <NSApplicationDelegate, NSWindowDelegate>{
     IBOutlet WebView *webView;
     WebController *theController;
     
@@ -23,6 +23,10 @@
     IBOutlet NSTextField *totalTextField;
     IBOutlet NSTextField *extensionTextField;
     IBOutlet NSTextField *gotoTextField;
+    
+    IBOutlet NSButton *reloadButton;
+    IBOutlet NSButton *previousButton;
+    IBOutlet NSButton *nextButton;
 }
 
 @property (assign) IBOutlet NSWindow *window;
@@ -34,6 +38,10 @@
 @property (nonatomic, retain) IBOutlet NSTextField *totalTextField;
 @property (nonatomic, retain) IBOutlet NSTextField *extensionTextField;
 @property (nonatomic, retain) IBOutlet NSTextField *gotoTextField;
+
+@property (nonatomic, retain) IBOutlet NSButton *reloadButton;
+@property (nonatomic, retain) IBOutlet NSButton *previousButton;
+@property (nonatomic, retain) IBOutlet NSButton *nextButton;
 
 -(IBAction)next:(id)sender;
 -(IBAction)previous:(id)sender;
