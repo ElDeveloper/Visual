@@ -19,7 +19,6 @@
 -(void)windowDidResize:(NSNotification *)notification{
     NSRect newSize=[_window frame];
     NSRect webViewRect=[webView frame];
-    NSRect nextButtonRect=[nextButton frame];
     
     //Resize the webview to make it as big as the window, considering that it should
     //be -40 pixels wider and -35 pixels shorter than the window 
