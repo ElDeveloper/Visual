@@ -1,12 +1,12 @@
-#About
+# About
 
-A Mac OS X implementation of a simple program to navigate through subsequent images or media in a server. For example, say that you have Image_1.png, Image_2.png ... Image 50.png and you need to navigate through them. 
+A Mac OS X implementation of a simple program to navigate through subsequent images or media in a server. For example, say that you have Image_1.png, Image_2.png ... Image_50.png and you need to navigate through them. 
 
 This is specially useful when running complex algorithms on a server and you need to see and inspect the visual output constantly.
 
 # Contact
 
-If you have any question reach me on my twitter:
+If you have a question or suggestion, reach me on my twitter:
 http://www.twitter.com/yosmark
 
 # License
